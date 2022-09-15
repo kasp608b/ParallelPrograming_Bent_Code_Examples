@@ -55,6 +55,7 @@ namespace AsianOptions
 		/// </summary>
 		private void cmdPriceOption_Click(object sender, RoutedEventArgs e)
 		{
+			this.cmdOutput.Text = this.cmdTextInput.Text;
 			this.spinnerWait.Visibility = System.Windows.Visibility.Visible;
 			this.spinnerWait.Spin = true;
 
